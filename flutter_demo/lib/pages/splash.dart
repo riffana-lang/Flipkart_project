@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:flipkart_main_project/pages/bottomNav.dart';
 import 'package:flipkart_main_project/pages/loginPage.dart';
 import 'package:flutter/material.dart';
 
@@ -16,8 +15,8 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
    
-    Future.delayed(Duration(seconds: 3), () {
-      Navigator.push(
+    Future.delayed(Duration(seconds: 2), () {
+      Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => LoginPage()),
       );

@@ -49,7 +49,7 @@ class _BottomNavState extends State<BottomNav> {
           indexNum = value;
         });
       },
-      items: const [
+      items:  [
         BottomNavigationBarItem(
           icon: Icon(Icons.home_filled),
           label: "Home",

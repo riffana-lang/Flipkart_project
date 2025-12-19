@@ -23,7 +23,6 @@ class Homepage extends StatelessWidget {
                   children: [
                     Expanded(
                       child: topContainer(
-                      
                         images: 'https://media.assettype.com/thebridgechronicle/import/s3fs-public/news-story/cover-images/4Buz_Flipkart_Pay_Later_now_.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true',
                         text: 'Flipkart',
                         Containercolor:  Color.fromARGB(255, 24, 129, 216),
@@ -63,7 +62,6 @@ class Homepage extends StatelessWidget {
                           'Brand Mall',
                           style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15),
                         ),
-                     
                       ],
                     ),
                     SizedBox(width: 10),

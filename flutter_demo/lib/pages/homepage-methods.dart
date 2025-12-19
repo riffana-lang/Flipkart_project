@@ -60,8 +60,7 @@ Column offerProduct({
       Text(text),
     ],
   );
-}
-
+} 
 
   Container topContainer({
     required images,
@@ -77,7 +76,6 @@ Column offerProduct({
       ),
       
       margin: EdgeInsets.all(10),
-
       width: 180,
       height: 80,
       child: Row(
@@ -122,10 +120,6 @@ Column offerProduct({
     ),
   );
 }
-
-
-
-
 
    Container thickLine() {
     return Container(
@@ -204,9 +198,6 @@ Column offerProduct({
       ),
     );
   }
-
-
-
 
   Column container() {
     return Column(
