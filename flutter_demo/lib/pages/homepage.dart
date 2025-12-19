@@ -26,7 +26,7 @@ class Homepage extends StatelessWidget {
                         images: 'https://media.assettype.com/thebridgechronicle/import/s3fs-public/news-story/cover-images/4Buz_Flipkart_Pay_Later_now_.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true',
                         text: 'Flipkart',
                         Containercolor:  Color.fromARGB(255, 24, 129, 216),
-                        color: const Color.fromARGB(255, 9, 8, 8),
+                        color: const Color.fromARGB(255, 0, 0, 0),
                         height: 20
                       ),
                     ),
@@ -40,7 +40,7 @@ class Homepage extends StatelessWidget {
                             images: 'https://images.yourstory.com/cs/wordpress/2018/05/flipkart_walmart.png?mode=crop&crop=faces&ar=2%3A1&format=auto&w=1920&q=75',
                             text: 'Grocery',
                             color: const Color.fromARGB(255, 3, 3, 3),
-                            Containercolor:  Color.fromARGB(255, 185, 224, 252),
+                            Containercolor:  Color.fromARGB(255, 216, 239, 255),
                             height: 80,
                           ),
                         ),
